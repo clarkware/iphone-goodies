@@ -1,0 +1,10 @@
+build
+project.pbxproj
+*.pbxuser
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+*~.xib
+!default.pbxuser
+!default.mode1v3
