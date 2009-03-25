@@ -1,0 +1,3 @@
+[submodule "External/google-toolbox"]
+	path = External/google-toolbox
+	url = git://github.com/tycho/google-toolbox-for-mac.git
