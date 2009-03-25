@@ -1,0 +1,31 @@
+#!/bin/sh 
+#
+# Finds the most recent application loaded in the simulator and opens the 
+# Documents, Preferences, or a named document in Finder.
+#
+# Open the Documents folder for an app:
+# 
+#   $ opensim SekretApp
+#
+# Open a document within that folder:
+#
+#   $ opensim SekretApp something.plist
+#
+# Open Preferences:
+#
+#   $ opensim SekretApp Preferences
+#
+# Credit: http://furbo.org/2009/03/03/open-sesame/
+#
+
+if [ -z "$1" ]; then
+  echo "usage: $0 <app> [ Preferences | <document> ]"
+else
+  app=`ls -1td ~/Library/Application\ Support/iPhone\ Simulator/User/Applications/*/$1.app`
+  dir=`dirname "$app"`
+  if [ "$2" = "Preferences" ]; then
+    open "$dir/Library/Preferences"
+  else
+    open "$dir/Documents/$2"
+  fi
+fi
