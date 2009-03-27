@@ -2,6 +2,11 @@
 
 @interface UIDevice (UIDeviceAdditions)
 
--(NSString*)IPAddress;
+- (NSString*)IPAddress;
+
+/*
+ * Available device memory in MB 
+ */
+@property(readonly) double availableMemory;
 
 @end
