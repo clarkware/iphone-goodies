@@ -5,6 +5,13 @@
 
 @implementation UIImage (UIImageAdditions)
 
++ (UIImage *)newImageFromResource:(NSString *)filename {
+    NSString *imageFile = [[NSString alloc] initWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], filename];
+    UIImage *image = [[UIImage alloc] initWithContentsOfFile:imageFile];
+    [imageFile release];
+    return image;
+}
+
 + (UIImage*)imageWithContentsOfURL:(NSURL*)url {
     NSError* error;
     NSData* data = [NSData dataWithContentsOfURL:url options:0 error:&error];

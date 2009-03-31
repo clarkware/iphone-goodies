@@ -3,6 +3,12 @@
 @interface UIImage (UIImageAdditions)
 
 /*
+ * Alternative to using imageNamed:, which caches
+ * images and doesn't clear the cache.
+ */
++ (UIImage *)newImageFromResource:(NSString *)filename;
+
+/*
  * Creates an image from the contents of a URL
  */
 + (UIImage*)imageWithContentsOfURL:(NSURL*)url;
