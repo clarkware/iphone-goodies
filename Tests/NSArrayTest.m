@@ -1,8 +1,7 @@
 #import "GTMSenTestCase.h"
 #import "NSArray+Additions.h"
 
-@interface NSArrayTest : SenTestCase 
-
+@interface NSArrayTest : SenTestCase
 @end
 
 @implementation NSArrayTest

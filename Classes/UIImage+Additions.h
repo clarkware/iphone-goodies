@@ -1,5 +1,7 @@
 #import <UIKit/UIKit.h>
 
+// Credit: http://github.com/enormego/cocoa-helpers
+
 @interface UIImage (UIImageAdditions)
 
 /*

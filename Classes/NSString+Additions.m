@@ -4,7 +4,7 @@
 
 - (NSString *)gsub:(NSString *)target with:(NSString *)replacement {
     return [self stringByReplacingOccurrencesOfString:target 
-                                             withString:replacement];
+                                           withString:replacement];
 }
 
 @end

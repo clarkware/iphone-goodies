@@ -2,7 +2,6 @@
 #import "NSDictionary+Additions.h"
 
 @interface NSDictionaryTest : SenTestCase 
-
 @end
 
 @implementation NSDictionaryTest
@@ -20,17 +19,4 @@
     STAssertFalse([dictionary isEmpty], nil);
 }
 
-- (void)testContainsObjectForKey {
-    NSDictionary *dictionary = 
-        [NSDictionary dictionaryWithObjectsAndKeys:@"uno", @"one", nil];
-    
-    STAssertTrue([dictionary containsObjectForKey:@"one"], nil);
-}
-
-- (void)testDoesNotContainObjectForKey {
-    NSDictionary *dictionary = 
-        [NSDictionary dictionaryWithObjectsAndKeys:@"uno", @"one", nil];
-    
-    STAssertFalse([dictionary containsObjectForKey:@"two"], nil);
-}
 @end

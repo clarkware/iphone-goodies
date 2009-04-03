@@ -1,14 +1,15 @@
 iPhone Goodies
 ==============
 
-An evolving collection of various scripts, extensions, and other goodies for iPhone development.
+A collection of various scripts, extensions, and other goodies for iPhone development.
 
 Dependencies
 ------------
 
 This project relies on the Google Toolbox for Mac. If you check out this
-project using git, you can pull down the dependencies using "git submodule
-update --init".
+project using git, you can pull down the dependencies using 
+
+    git submodule update --init
   
 Running the Tests
 -----------------

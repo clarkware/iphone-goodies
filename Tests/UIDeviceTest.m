@@ -1,8 +1,9 @@
 #import "GTMSenTestCase.h"
 #import "UIDevice+Additions.h"
 
-@interface UIDeviceTest : SenTestCase 
+@interface UIDeviceTest : SenTestCase  {
     UIDevice *device;
+}
 @end
 
 @implementation UIDeviceTest

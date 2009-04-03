@@ -8,7 +8,8 @@
 @implementation DocumentTest
 
 - (void)testDocumentsDirectory {
-    STAssertTrue([[Document documentsDirectory] hasSuffix:@"Documents"], nil);
+    STAssertTrue([[Document documentsDirectory] hasSuffix:@"Documents"], 
+                 nil);
 }
 
 @end

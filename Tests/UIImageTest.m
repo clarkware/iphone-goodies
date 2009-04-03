@@ -1,8 +1,7 @@
 #import "GTMSenTestCase.h"
 #import "UIImage+Additions.h"
 
-@interface UIImageTest : SenTestCase 
-
+@interface UIImageTest : SenTestCase
 @end
 
 @implementation UIImageTest
