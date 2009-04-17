@@ -16,4 +16,8 @@
     STAssertNotNil([device IPAddress], nil);
 }
 
+- (void)testPhoneNumber {
+    STAssertNil([device phoneNumber], nil);
+}
+
 @end

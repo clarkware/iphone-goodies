@@ -29,5 +29,10 @@
     return ((vm_page_size * vmStats.free_count) / 1024.0) / 1024.0;
 }
 
+- (NSString *)phoneNumber {
+    return [[NSUserDefaults standardUserDefaults] 
+            stringForKey:@"SBFormattedPhoneNumber"];
+}
+
 @end
 
