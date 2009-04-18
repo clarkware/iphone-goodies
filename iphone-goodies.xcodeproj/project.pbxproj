@@ -378,6 +378,7 @@
 				GCC_PREFIX_HEADER = iphone_goodies_Prefix.pch;
 				INFOPLIST_FILE = "iphone_goodies-Info.plist";
 				PRODUCT_NAME = "iphone-goodies";
+				SDKROOT = iphonesimulator2.2.1;
 			};
 			name = Release;
 		};
@@ -433,7 +434,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphonesimulator2.2.1;
 				ZERO_LINK = NO;
 			};
 			name = Release;
