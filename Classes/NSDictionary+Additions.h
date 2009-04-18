@@ -1,5 +1,5 @@
 @interface NSDictionary (NSDictionaryAdditions)
 
-@property(nonatomic,readonly,getter=isEmpty) BOOL empty;
+- (BOOL)isEmpty;
 
 @end

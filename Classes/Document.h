@@ -1,8 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface Document : NSObject {
-
-}
+@interface Document : NSObject
 
 + (NSString *)documentsDirectory;
 

@@ -3,7 +3,7 @@
 @interface UIDevice (UIDeviceAdditions)
 
 @property(readonly) NSString *IPAddress;
-@property(readonly) double availableMemory;
 @property(readonly) NSString *phoneNumber;
+@property(readonly) double availableMemory;
 
 @end

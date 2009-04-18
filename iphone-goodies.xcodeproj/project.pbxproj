@@ -40,6 +40,10 @@
 		27D0EA290F82751100EFC026 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		27D0EA790F82752200EFC026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		27D0EA7A0F82752700EFC026 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		27F9035A0F9A62BB002AFBAC /* CWDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F903590F9A62BB002AFBAC /* CWDialog.m */; };
+		27F9035B0F9A62BB002AFBAC /* CWDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F903590F9A62BB002AFBAC /* CWDialog.m */; };
+		27F903760F9A6453002AFBAC /* CWApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F903750F9A6453002AFBAC /* CWApplication.m */; };
+		27F903770F9A6453002AFBAC /* CWApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F903750F9A6453002AFBAC /* CWApplication.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +83,10 @@
 		27A00D5D0F7AAB4C00B8FBEB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = "External/google-toolbox/GTMDefines.h"; sourceTree = "<group>"; };
 		27D0E9A90F82741000EFC026 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		27D0E9AC0F82743F00EFC026 /* UIImageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageTest.m; sourceTree = "<group>"; };
+		27F903580F9A62BB002AFBAC /* CWDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDialog.h; sourceTree = "<group>"; };
+		27F903590F9A62BB002AFBAC /* CWDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWDialog.m; sourceTree = "<group>"; };
+		27F903740F9A6453002AFBAC /* CWApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWApplication.h; sourceTree = "<group>"; };
+		27F903750F9A6453002AFBAC /* CWApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWApplication.m; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iphone_goodies_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphone_goodies_Prefix.pch; sourceTree = "<group>"; };
@@ -127,6 +135,10 @@
 				274A1DC50F7D79CF00095472 /* UIImage+Additions.h */,
 				274A1DC60F7D79CF00095472 /* UIImage+Additions.m */,
 				2798B9CC0F824F950031B96C /* CWDefines.h */,
+				27F903580F9A62BB002AFBAC /* CWDialog.h */,
+				27F903590F9A62BB002AFBAC /* CWDialog.m */,
+				27F903740F9A6453002AFBAC /* CWApplication.h */,
+				27F903750F9A6453002AFBAC /* CWApplication.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -325,6 +337,8 @@
 				274A1DAF0F7D75A300095472 /* NSArray+Additions.m in Sources */,
 				274A1DB90F7D76B000095472 /* NSDictionary+Additions.m in Sources */,
 				274A1DC70F7D79CF00095472 /* UIImage+Additions.m in Sources */,
+				27F9035A0F9A62BB002AFBAC /* CWDialog.m in Sources */,
+				27F903770F9A6453002AFBAC /* CWApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +363,8 @@
 				274A1DBD0F7D770A00095472 /* NSDictionaryTest.m in Sources */,
 				27D0E9AD0F82743F00EFC026 /* UIImageTest.m in Sources */,
 				27D0E9B00F82749000EFC026 /* UIImage+Additions.m in Sources */,
+				27F9035B0F9A62BB002AFBAC /* CWDialog.m in Sources */,
+				27F903760F9A6453002AFBAC /* CWApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

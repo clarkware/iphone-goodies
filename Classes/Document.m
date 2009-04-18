@@ -4,7 +4,9 @@
 
 + (NSString *)documentsDirectory {
     NSArray *paths = 
-        NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, 
+                                            NSUserDomainMask, 
+                                            YES);
     return [paths objectAtIndex:0];
 }
 
